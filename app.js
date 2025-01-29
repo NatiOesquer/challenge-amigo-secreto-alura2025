@@ -22,7 +22,7 @@ function agregarAmigo() {
     let nombre = input.value.trim();
     
     if (nombre === "") {
-        alert("Por favor, inserte un nombre.");
+        alert("Por favor, ingrese un nombre.");
         return;
     }
     
@@ -32,3 +32,17 @@ function agregarAmigo() {
     console.log(amigos)
 }
 
+
+// Funcion para el sorteo del amigo
+
+function sortearAmigo() {
+    if(amigos.length === 0){
+        alert("No hay amigos en la lista para sortear");
+        return;
+    }
+
+    let amigoAleatorio = Math.floor(Math.random()*amigos.length);
+    let amigoSorteado = amigos[amigoAleatorio];
+    let resultado = document.getElementById('resultado');
+    resultado.innerHTML = `<li>El amigo secreto es: <strong>${amigoSorteado}</strong></li>`;
+}
