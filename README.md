@@ -17,8 +17,8 @@ Este es un pequeño proyecto en JavaScript que te permite gestionar una lista de
 
 🚀 Cómo usarlo
 
-1- Agrega los nombres de tus amigos en el campo de texto. 
-2- Haz clic en "Agregar amigo" para que el nombre se agregue a la lista.
-3- Haz clic en "Sortear amigo secreto" para seleccionar un amigo al azar.
+* Agrega los nombres de tus amigos en el campo de texto. 
+* Haz clic en "Agregar amigo" para que el nombre se agregue a la lista.
+* Haz clic en "Sortear amigo secreto" para seleccionar un amigo al azar.
 
 
