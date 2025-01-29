@@ -11,10 +11,12 @@ Este es un pequeño proyecto en JavaScript que te permite gestionar una lista de
 * Sorteo de amigo secreto: Al hacer clic en el botón de sorteo, se seleccionará un amigo de la lista al azar para ser el "amigo secreto".
 
 📋 Requisitos
+
 * Un navegador web moderno (compatible con JavaScript).
 * HTML básico para que funcione correctamente.
 
 🚀 Cómo usarlo
+
 1- Agrega los nombres de tus amigos en el campo de texto.
 2- Haz clic en "Agregar amigo" para que el nombre se agregue a la lista.
 3- Haz clic en "Sortear amigo secreto" para seleccionar un amigo al azar.
