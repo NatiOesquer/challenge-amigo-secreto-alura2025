@@ -11,7 +11,24 @@ function actualizarLista(){
     for(let amigo of amigos){
         let li = document.createElement('li');
         li.textContent = amigo;
-        li.appendChild(li);
+        lista.appendChild(li);
     }
+}
+
+// Función para agregar un amigo a la lista
+
+function agregarAmigo() {
+    let input = document.getElementById("amigo");
+    let nombre = input.value.trim();
+    
+    if (nombre === "") {
+        alert("Por favor, inserte un nombre.");
+        return;
+    }
+    
+    amigos.push(nombre);
+    actualizarLista();
+    input.value = ""; // Limpiar campo 
+    console.log(amigos)
 }
 
